@@ -15,7 +15,7 @@ steps:
     deploymentScope: 'Resource Group'
     azureResourceManagerConnection: 'arm_conn'
     subscriptionId: '72f19523-2ed0-4bde-abb7-eb01f5ac6197'
-    action: 'Create Or Update Resource Group'
+    action: 'Delete Resource Group'
     resourceGroupName: 'arm_rg'
     location: 'France Central'
     templateLocation: 'URL of the file'
