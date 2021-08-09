@@ -15,11 +15,10 @@ steps:
     deploymentScope: 'Resource Group'
     azureResourceManagerConnection: 'arm_conn'
     subscriptionId: '72f19523-2ed0-4bde-abb7-eb01f5ac6197'
-    action: 'Delete Resource Group'
+    action: 'DeleteRG'
     resourceGroupName: 'arm_rg'
     location: 'France Central'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/elo-nexworld/arm_delete_resources/main/delete.json'
     deploymentMode: 'Complete'
     deploymentName: 'DeployPipelineTemplate'
-
