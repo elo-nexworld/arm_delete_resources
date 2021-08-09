@@ -19,8 +19,7 @@ steps:
     resourceGroupName: 'arm_rg'
     location: 'France Central'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/elo-nexworld/arm_deployment/main/WebSite.json'
-    csmParametersFileLink: 'https://raw.githubusercontent.com/elo-nexworld/arm_deployment/main/WebSite.parameters.json'
-    deploymentMode: 'Incremental'
+    csmFileLink: 'https://raw.githubusercontent.com/elo-nexworld/arm_delete_resources/main/delete.json'
+    deploymentMode: 'Complete'
     deploymentName: 'DeployPipelineTemplate'
 
