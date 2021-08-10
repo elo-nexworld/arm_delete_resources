@@ -22,3 +22,4 @@ steps:
     csmFileLink: 'https://raw.githubusercontent.com/elo-nexworld/arm_delete_resources/main/delete.json'
     deploymentMode: 'Complete'
     deploymentName: 'DeployPipelineTemplate'
+    
